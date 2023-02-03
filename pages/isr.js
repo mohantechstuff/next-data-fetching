@@ -5,7 +5,7 @@ export default function IncrementalStaticRegeneration({ data }) {
   return (
     <>
       {data.map((e) => (
-        <h1 key={e.id}>{e.title}</h1>
+        <h1 key={e.id}>{e.titl}</h1>
       ))}
     </>
   );
@@ -26,6 +26,6 @@ export async function getStaticProps() {
     // Next.js will attempt to re-generate the page:
     // - When a request comes in
     // - At most once every second
-    revalidate: 200, // In seconds
+    revalidate: 100, // In seconds
   };
 }
