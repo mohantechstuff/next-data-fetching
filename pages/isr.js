@@ -5,7 +5,8 @@ export default function IncrementalStaticRegeneration({ data }) {
   return (
     <>
       {data.map((e) => (
-        <h1 key={e.id}>{e.id}</h1>
+        //<h1 key={e.id}>{e.id}</h1>
+          <img src={e.col1} width="200" height="125"/> 
       ))}
     </>
   );
