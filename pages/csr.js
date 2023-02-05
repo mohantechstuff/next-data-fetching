@@ -18,7 +18,8 @@ export default function ClientSideRendered() {
   return (
     <>
       {state.map((e) => (
-        <h2 key={e.id}>{e.id}</h2>
+        //<h2 key={e.id}>{e.id}</h2>
+          <img src={e.col1} width="200" height="125"/> 
       ))}
     </>
   );
