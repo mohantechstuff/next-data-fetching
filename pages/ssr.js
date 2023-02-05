@@ -6,7 +6,7 @@ export default function ServerSideRendered({ data }) {
     <>
       {data.map((e) => (
         //<h2 key={e.id}>{e.id}</h2>
-          <img src={e.col1} width="200" height="125"/>
+          //<img src={e.col1} width="200" height="125"/>
           <img src="https://as1.ftcdn.net/v2/jpg/03/63/34/70/1000_F_363347020_YzZc2x3LI8fTfVXvGVPTXTrkOAJ1MR4l.jpg" height="100"/>
       ))}
     </>
