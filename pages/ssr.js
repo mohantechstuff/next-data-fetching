@@ -6,7 +6,7 @@ export default function ServerSideRendered({ data }) {
     <>
       {data.map((e) => (
         //<h2 key={e.id}>{e.id}</h2>
-          <img src={e.col1} width="200" height="125"/><br>
+          <img src={e.col1} width="200" height="125"/>
       ))}
     </>
   );
